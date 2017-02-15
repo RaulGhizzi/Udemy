@@ -11,8 +11,8 @@ x = dataset.iloc[:,:-1].values
 y = dataset.iloc[:,3].values
 
                 
-# from sklearn.preprocessing import Imputer
 # #Cleaning Missing Data
+# from sklearn.preprocessing import Imputer
 # imputer = Imputer(missing_values = 'NaN', strategy = 'mean', axis = 0)
 # imputer.fit(x[:,1:3])
 # x[:, 1:3] = imputer.transform(x[:, 1:3])
